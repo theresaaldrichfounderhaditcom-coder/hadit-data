@@ -7,17 +7,6 @@
  "notes": "Recommendation text and status are OIG's own, read from each report page. Issue tags are HadIt labels applied to OIG's formal recommendations.",
  "reports": [
   {
-   "facility": "Columbia VA Health Care System",
-   "city": "Columbia",
-   "state": "SC",
-   "date": "2026-11-06",
-   "reportNumber": "26-00072-10",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-columbia-va-health-care",
-   "domains": [],
-   "themes": [],
-   "recs": []
-  },
-  {
    "facility": "VA Marion Healthcare System",
    "city": "Marion",
    "state": "IL",
@@ -46,26 +35,15 @@
    ]
   },
   {
-   "facility": "VA Chicago Healthcare System",
-   "city": "Chicago",
-   "state": "IL",
-   "date": "2026-10-29",
-   "reportNumber": "26-00063-07",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-chicago-healthcare-system",
-   "domains": [
-    "Integrated veteran care"
-   ],
-   "themes": [
-    "Community care delays"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "open",
-     "closed": null,
-     "text": "The Medical Center Director develops an action plan with community care leaders to meet the requirement for staff to schedule appointments within seven days, as outlined in the Veterans Health Administration’s Consult Timeliness Standard Operating Procedure ."
-    }
-   ]
+   "facility": "Columbia VA Health Care System",
+   "city": "Columbia",
+   "state": "SC",
+   "date": "2026-11-06",
+   "reportNumber": "26-00072-10",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-columbia-va-health-care",
+   "domains": [],
+   "themes": [],
+   "recs": []
   },
   {
    "facility": "VA Salt Lake City Healthcare System",
@@ -90,6 +68,50 @@
    ]
   },
   {
+   "facility": "VA Chicago Healthcare System",
+   "city": "Chicago",
+   "state": "IL",
+   "date": "2026-10-29",
+   "reportNumber": "26-00063-07",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-chicago-healthcare-system",
+   "domains": [
+    "Integrated veteran care"
+   ],
+   "themes": [
+    "Community care delays"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "open",
+     "closed": null,
+     "text": "The Medical Center Director develops an action plan with community care leaders to meet the requirement for staff to schedule appointments within seven days, as outlined in the Veterans Health Administration’s Consult Timeliness Standard Operating Procedure ."
+    }
+   ]
+  },
+  {
+   "facility": "VA Phoenix Health Care System",
+   "city": "Phoenix",
+   "state": "AZ",
+   "date": "2026-10-19",
+   "reportNumber": "26-00041-05",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-phoenix-health-care-system",
+   "domains": [
+    "Patient safety"
+   ],
+   "themes": [
+    "Test result communication"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "open",
+     "closed": null,
+     "text": "The Chief of Staff and Associate Director for Patient Care Services develop written service-level workflows that outline staff members’ roles in the process to communicate test results to patients, in accordance with Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
+    }
+   ]
+  },
+  {
    "facility": "VA Maryland Health Care System",
    "city": "Baltimore",
    "state": "MD",
@@ -103,12 +125,12 @@
     "Veteran-centered safety net"
    ],
    "themes": [
-    "Medical emergency response",
-    "Test result communication",
-    "Primary care panel size",
     "Community care delays",
+    "Medical emergency response",
+    "Primary care panel size",
+    "Repeat findings",
     "Security surveillance",
-    "Repeat findings"
+    "Test result communication"
    ],
    "recs": [
     {
@@ -144,28 +166,6 @@
    ]
   },
   {
-   "facility": "VA Phoenix Health Care System",
-   "city": "Phoenix",
-   "state": "AZ",
-   "date": "2026-10-19",
-   "reportNumber": "26-00041-05",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-phoenix-health-care-system",
-   "domains": [
-    "Patient safety"
-   ],
-   "themes": [
-    "Test result communication"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "open",
-     "closed": null,
-     "text": "The Chief of Staff and Associate Director for Patient Care Services develop written service-level workflows that outline staff members’ roles in the process to communicate test results to patients, in accordance with Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
-    }
-   ]
-  },
-  {
    "facility": "VA Nebraska-Western Iowa Health Care System",
    "city": "Omaha",
    "state": "NE",
@@ -177,8 +177,8 @@
     "Patient safety"
    ],
    "themes": [
-    "Cleanliness/infection control",
     "Clean/dirty storage separation",
+    "Cleanliness/infection control",
     "Legionella/water safety",
     "Pharmaceutical waste disposal",
     "Test result communication"
@@ -200,7 +200,7 @@
      "n": 3,
      "status": "open",
      "closed": null,
-     "text": "The Chief of Staff takes the appropriate steps for leaders to assess the facility’s pharmaceutical waste disposal processes and reeducate staff on safe handling and disposal practices, in accordance with the facility’s Regulated Waste Materials Management  policy   and Pharmaceutical Return, Waste, and Disposal Standard Operating Procedure."
+     "text": "The Chief of Staff takes the appropriate steps for leaders to assess the facility’s pharmaceutical waste disposal processes and reeducate staff on safe handling and disposal practices, in accordance with the facility’s Regulated Waste Materials Management policy and Pharmaceutical Return, Waste, and Disposal Standard Operating Procedure."
     },
     {
      "n": 4,
@@ -235,8 +235,8 @@
     "Cleanliness/infection control",
     "Equipment maintenance/labeling",
     "Fire/life safety",
-    "Repeat findings",
-    "Pharmaceutical waste disposal"
+    "Pharmaceutical waste disposal",
+    "Repeat findings"
    ],
    "recs": [
     {
@@ -261,29 +261,7 @@
      "n": 4,
      "status": "open",
      "closed": null,
-     "text": "The Director takes appropriate action so employees secure power strips as required by National Fire Protection Association’s Health Care Facilities Code, NFPA 99  and electrical cords are connected to prevent pulling or straining as required by National Electrical Code , NFPA 70 ."
-    }
-   ]
-  },
-  {
-   "facility": "VA Columbia Missouri Healthcare System",
-   "city": "Columbia",
-   "state": "MO",
-   "date": "2026-10-05",
-   "reportNumber": "26-00046-284",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-columbia-missouri",
-   "domains": [
-    "Environment of care"
-   ],
-   "themes": [
-    "Cleanliness/infection control"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "open",
-     "closed": null,
-     "text": "Facility leaders take appropriate actions so staff maintain a safe and clean environment, in accordance with Veterans Health Administration Directive 1608(1), Comprehensive Environment of Care Program ."
+     "text": "The Director takes appropriate action so employees secure power strips as required by National Fire Protection Association’s Health Care Facilities Code, NFPA 99 and electrical cords are connected to prevent pulling or straining as required by National Electrical Code , NFPA 70 ."
     }
    ]
   },
@@ -316,38 +294,24 @@
    ]
   },
   {
-   "facility": "VA Finger Lakes Healthcare System",
-   "city": "Bath",
-   "state": "NY",
-   "date": "2026-10-02",
-   "reportNumber": "26-00059-221",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-finger-lakes-healthcare",
+   "facility": "VA Columbia Missouri Healthcare System",
+   "city": "Columbia",
+   "state": "MO",
+   "date": "2026-10-05",
+   "reportNumber": "26-00046-284",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-columbia-missouri",
    "domains": [
     "Environment of care"
    ],
    "themes": [
-    "Expired supplies",
-    "Repeat findings",
-    "Slip/fall hazards"
+    "Cleanliness/infection control"
    ],
    "recs": [
     {
      "n": 1,
      "status": "open",
      "closed": null,
-     "text": "The Director performs a comprehensive safety risk assessment of enclosed walkways and implements necessary corrective actions to mitigate slip hazards, in accordance with Veterans Health Administration Directive 1608(1), Comprehensive Environment of Care Program ."
-    },
-    {
-     "n": 2,
-     "status": "open",
-     "closed": null,
-     "text": "The Director takes appropriate actions for staff to regularly identify and remove expired supplies in all areas outside standard supply rooms to comply with Veterans Health Administration Directive 1761, Supply Chain Management Operations ."
-    },
-    {
-     "n": 3,
-     "status": "open",
-     "closed": null,
-     "text": "The Veterans Integrated Service Network Director monitors the facility’s processes to prevent repeat environment of care findings and takes any needed actions to meet the requirements of Veterans Health Administration Directive 1608(1), Comprehensive Environment of Care Program ."
+     "text": "Facility leaders take appropriate actions so staff maintain a safe and clean environment, in accordance with Veterans Health Administration Directive 1608(1), Comprehensive Environment of Care Program ."
     }
    ]
   },
@@ -429,66 +393,38 @@
    ]
   },
   {
-   "facility": "Central Arkansas Veterans Healthcare System",
-   "city": "Little Rock",
-   "state": "AR",
-   "date": "2026-09-30",
-   "reportNumber": "25-00203-180",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-central-arkansas-veterans",
+   "facility": "VA Finger Lakes Healthcare System",
+   "city": "Bath",
+   "state": "NY",
+   "date": "2026-10-02",
+   "reportNumber": "26-00059-221",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-finger-lakes-healthcare",
    "domains": [
     "Environment of care"
    ],
    "themes": [
-    "Compressed gas storage",
+    "Expired supplies",
     "Repeat findings",
-    "Supply storage"
+    "Slip/fall hazards"
    ],
    "recs": [
     {
      "n": 1,
-     "status": "closed",
-     "closed": "9/30/2026",
-     "text": "The Director takes appropriate action so staff conduct a risk assessment to identify areas that need temperature and humidity monitoring and implement changes accordingly to comply with Veterans Health Administration Directive 1761, Supply Chain Management Operations."
+     "status": "open",
+     "closed": null,
+     "text": "The Director performs a comprehensive safety risk assessment of enclosed walkways and implements necessary corrective actions to mitigate slip hazards, in accordance with Veterans Health Administration Directive 1608(1), Comprehensive Environment of Care Program ."
     },
     {
      "n": 2,
-     "status": "closed",
-     "closed": "9/30/2026",
-     "text": "The Director takes appropriate action so staff secure liquid nitrogen tanks, maintain unobstructed access to exits, conduct a risk assessment on safe liquid nitrogen storage options to increase safety, and implement changes accordingly to align with the National Fire Protection Association’s Compressed Gases and Cryogenic Fluids Code NFPA 55, Health Care Facilities Code NFPA 99,  and Code of Federal Regulations title 29, section 1926.34."
+     "status": "open",
+     "closed": null,
+     "text": "The Director takes appropriate actions for staff to regularly identify and remove expired supplies in all areas outside standard supply rooms to comply with Veterans Health Administration Directive 1761, Supply Chain Management Operations ."
     },
     {
      "n": 3,
      "status": "open",
      "closed": null,
-     "text": "The Director takes appropriate action so staff improve processes to prevent repeat environment of care findings as required by Veterans Health Administration Directive 1608(1), Comprehensive Environment of Care Program ."
-    }
-   ]
-  },
-  {
-   "facility": "Central Virginia VA Health Care System",
-   "city": "Richmond",
-   "state": "VA",
-   "date": "2026-09-30",
-   "reportNumber": "25-00213-242",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-central-virginia-va-health",
-   "domains": [
-    "Patient safety"
-   ],
-   "themes": [
-    "Test result communication"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "closed",
-     "closed": "9/30/2026",
-     "text": "The Director takes appropriate actions so leaders update the facility’s policy for communicating test results to include how providers communicate life-changing results to patients at high risk for suicide, as required by Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
-    },
-    {
-     "n": 2,
-     "status": "open",
-     "closed": null,
-     "text": "The Chief of Staff and Associate Director for Patient Care Services develop workflows that describe how each team member participates in the process to communicate test results, in accordance with Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
+     "text": "The Veterans Integrated Service Network Director monitors the facility’s processes to prevent repeat environment of care findings and takes any needed actions to meet the requirements of Veterans Health Administration Directive 1608(1), Comprehensive Environment of Care Program ."
     }
    ]
   },
@@ -521,6 +457,70 @@
    ]
   },
   {
+   "facility": "Central Virginia VA Health Care System",
+   "city": "Richmond",
+   "state": "VA",
+   "date": "2026-09-30",
+   "reportNumber": "25-00213-242",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-central-virginia-va-health",
+   "domains": [
+    "Patient safety"
+   ],
+   "themes": [
+    "Test result communication"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "closed",
+     "closed": "9/30/2026",
+     "text": "The Director takes appropriate actions so leaders update the facility’s policy for communicating test results to include how providers communicate life-changing results to patients at high risk for suicide, as required by Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
+    },
+    {
+     "n": 2,
+     "status": "open",
+     "closed": null,
+     "text": "The Chief of Staff and Associate Director for Patient Care Services develop workflows that describe how each team member participates in the process to communicate test results, in accordance with Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
+    }
+   ]
+  },
+  {
+   "facility": "Central Arkansas Veterans Healthcare System",
+   "city": "Little Rock",
+   "state": "AR",
+   "date": "2026-09-30",
+   "reportNumber": "25-00203-180",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-central-arkansas-veterans",
+   "domains": [
+    "Environment of care"
+   ],
+   "themes": [
+    "Compressed gas storage",
+    "Repeat findings",
+    "Supply storage"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "closed",
+     "closed": "9/30/2026",
+     "text": "The Director takes appropriate action so staff conduct a risk assessment to identify areas that need temperature and humidity monitoring and implement changes accordingly to comply with Veterans Health Administration Directive 1761, Supply Chain Management Operations."
+    },
+    {
+     "n": 2,
+     "status": "closed",
+     "closed": "9/30/2026",
+     "text": "The Director takes appropriate action so staff secure liquid nitrogen tanks, maintain unobstructed access to exits, conduct a risk assessment on safe liquid nitrogen storage options to increase safety, and implement changes accordingly to align with the National Fire Protection Association’s Compressed Gases and Cryogenic Fluids Code NFPA 55, Health Care Facilities Code NFPA 99, and Code of Federal Regulations title 29, section 1926.34."
+    },
+    {
+     "n": 3,
+     "status": "open",
+     "closed": null,
+     "text": "The Director takes appropriate action so staff improve processes to prevent repeat environment of care findings as required by Veterans Health Administration Directive 1608(1), Comprehensive Environment of Care Program ."
+    }
+   ]
+  },
+  {
    "facility": "VA Wilkes-Barre Healthcare System",
    "city": "Wilkes-Barre",
    "state": "PA",
@@ -543,11 +543,11 @@
    ],
    "themes": [
     "Cleanliness/infection control",
+    "Environment of care program oversight",
     "Fire/life safety",
     "Repeat findings",
     "Slip/fall hazards",
-    "Wayfinding/signage",
-    "Environment of care program oversight"
+    "Wayfinding/signage"
    ],
    "recs": [
     {
@@ -609,6 +609,95 @@
      "status": "closed",
      "closed": "9/28/2026",
      "text": "The Director implements measures to monitor medication room temperature and humidity in the intensive care unit and community living center, in accordance with Veterans Health Administration Directive 1108.07(2), General Pharmacy Service Requirements ."
+    }
+   ]
+  },
+  {
+   "facility": "VA New Jersey Healthcare System",
+   "city": "East Orange",
+   "state": "NJ",
+   "date": "2026-09-25",
+   "reportNumber": "25-00242-195",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-new-jersey-healthcare",
+   "domains": [
+    "Environment of care",
+    "Patient safety"
+   ],
+   "themes": [
+    "Adverse event disclosure/reporting",
+    "Cleanliness/infection control",
+    "Fire/life safety",
+    "Repeat findings",
+    "Root cause analysis follow-through",
+    "Supply storage",
+    "Test result communication"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "open",
+     "closed": null,
+     "text": "The Director takes appropriate actions to strengthen staff accountability for maintaining clean and safe patient care areas as required by Veterans Health Administration Directive 1608(1), Comprehensive Environment of Care Program ."
+    },
+    {
+     "n": 2,
+     "status": "open",
+     "closed": null,
+     "text": "The Director takes appropriate actions so staff validate and document airflow testing in supply rooms annually as required by Veterans Health Administration Directive 1761, Supply Chain Management Operations ."
+    },
+    {
+     "n": 3,
+     "status": "open",
+     "closed": null,
+     "text": "The Director takes appropriate actions so staff conduct a risk assessment to identify areas that require temperature and humidity monitoring and implement changes as required by Veterans Health Administration Directive 1761, Supply Chain Management Operations and Veterans Health Administration Directive 1108.07(2), General Pharmacy Service Requirements ."
+    },
+    {
+     "n": 4,
+     "status": "open",
+     "closed": null,
+     "text": "The Director implements controls so staff repair or replace malfunctioning fire doors to ensure proper closure during emergencies as required by the National Fire Protection Association’s Standard for Fire Doors and Other Opening Protectives , NFPA 80 ."
+    },
+    {
+     "n": 5,
+     "status": "open",
+     "closed": null,
+     "text": "The Director implements measures so staff conduct all required fire safety inspections and document the results as required by the National Fire Protection Association’s Standard for Fire Doors and Other Opening Protectives , NFPA 80 ."
+    },
+    {
+     "n": 6,
+     "status": "open",
+     "closed": null,
+     "text": "The Director takes appropriate actions to implement measures to test sprinkler systems as required by the National Fire Protection Association’s Standard for the Inspection , Testing , and Maintenance of Water-Based Fire Protection Systems , NFPA 25."
+    },
+    {
+     "n": 7,
+     "status": "open",
+     "closed": null,
+     "text": "The Director takes appropriate actions so staff evaluate processes to prevent repeat environment of care findings and take actions as warranted."
+    },
+    {
+     "n": 8,
+     "status": "open",
+     "closed": null,
+     "text": "The Veterans Integrated Service Network Director monitors for similar or repeat environment of care findings and takes appropriate actions so facility leaders develop and implement facility-wide corrective action plans and sustain improvements."
+    },
+    {
+     "n": 9,
+     "status": "open",
+     "closed": null,
+     "text": "The Director takes appropriate actions so each service chief develops a workflow that describes staff members’ roles in the process of communicating test results to providers and patients as required by Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
+    },
+    {
+     "n": 10,
+     "status": "open",
+     "closed": null,
+     "text": "The Director takes appropriate actions so staff track root cause analysis-driven improvement actions through to completion, monitor outcome measures, and implement processes to sustain improvements to comply with Veterans Health Administration National Center for Patient Safety’s Guide to Performing Root Cause Analysis ."
+    },
+    {
+     "n": 11,
+     "status": "open",
+     "closed": null,
+     "text": "The Chief of Staff takes appropriate action for evaluation and improvement of processes to identify adverse events that warrant institutional disclosures to patients or their representatives as required by Veterans Health Administration Directive 1004.08, Disclosure of Adverse Events to Patients ."
     }
    ]
   },
@@ -679,95 +768,6 @@
    ]
   },
   {
-   "facility": "VA New Jersey Healthcare System",
-   "city": "East Orange",
-   "state": "NJ",
-   "date": "2026-09-25",
-   "reportNumber": "25-00242-195",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-new-jersey-healthcare",
-   "domains": [
-    "Environment of care",
-    "Patient safety"
-   ],
-   "themes": [
-    "Adverse event disclosure/reporting",
-    "Cleanliness/infection control",
-    "Fire/life safety",
-    "Repeat findings",
-    "Root cause analysis follow-through",
-    "Supply storage",
-    "Test result communication"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "open",
-     "closed": null,
-     "text": "The Director takes appropriate actions to strengthen staff accountability for maintaining clean and safe patient care areas as required by Veterans Health Administration Directive 1608(1), Comprehensive Environment of Care Program ."
-    },
-    {
-     "n": 2,
-     "status": "open",
-     "closed": null,
-     "text": "The Director takes appropriate actions so staff validate and document airflow testing in supply rooms annually as required by Veterans Health Administration Directive 1761, Supply Chain Management Operations ."
-    },
-    {
-     "n": 3,
-     "status": "open",
-     "closed": null,
-     "text": "The Director takes appropriate actions so staff conduct a risk assessment to identify areas that require temperature and humidity monitoring and implement changes as required by Veterans Health Administration Directive 1761, Supply Chain Management Operations  and   Veterans Health Administration Directive 1108.07(2), General Pharmacy Service Requirements ."
-    },
-    {
-     "n": 4,
-     "status": "open",
-     "closed": null,
-     "text": "The Director implements controls so staff repair or replace malfunctioning fire doors to ensure proper closure during emergencies as required by the National Fire Protection Association’s Standard for Fire Doors and Other Opening Protectives , NFPA 80 ."
-    },
-    {
-     "n": 5,
-     "status": "open",
-     "closed": null,
-     "text": "The Director implements measures so staff conduct all required fire safety inspections and document the results as required by the National Fire Protection Association’s Standard for Fire Doors and Other Opening Protectives , NFPA 80 ."
-    },
-    {
-     "n": 6,
-     "status": "open",
-     "closed": null,
-     "text": "The Director takes appropriate actions to implement measures to test sprinkler systems as required by the National Fire Protection Association’s Standard for the Inspection , Testing , and Maintenance of Water-Based Fire Protection Systems , NFPA 25."
-    },
-    {
-     "n": 7,
-     "status": "open",
-     "closed": null,
-     "text": "The Director takes appropriate actions so staff evaluate processes to prevent repeat environment of care findings and take actions as warranted."
-    },
-    {
-     "n": 8,
-     "status": "open",
-     "closed": null,
-     "text": "The Veterans Integrated Service Network Director monitors for similar or repeat environment of care findings and takes appropriate actions so facility leaders develop and implement facility-wide corrective action plans and sustain improvements."
-    },
-    {
-     "n": 9,
-     "status": "open",
-     "closed": null,
-     "text": "The Director takes appropriate actions so each service chief develops a workflow that describes staff members’ roles in the process of communicating test results to providers and patients as required by Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
-    },
-    {
-     "n": 10,
-     "status": "open",
-     "closed": null,
-     "text": "The Director takes appropriate actions so staff track root cause analysis-driven improvement actions through to completion, monitor outcome measures, and implement processes to sustain improvements to comply with Veterans Health Administration National Center for Patient Safety’s Guide to Performing Root Cause Analysis ."
-    },
-    {
-     "n": 11,
-     "status": "open",
-     "closed": null,
-     "text": "The Chief of Staff takes appropriate action for evaluation and improvement of processes to identify adverse events that warrant institutional disclosures to patients or their representatives as required by Veterans Health Administration Directive 1004.08, Disclosure of Adverse Events to Patients ."
-    }
-   ]
-  },
-  {
    "facility": "VA White River Junction Healthcare System",
    "city": "White River Junction",
    "state": "VT",
@@ -827,6 +827,65 @@
    ]
   },
   {
+   "facility": "VA Tuscaloosa Healthcare System",
+   "city": "Tuscaloosa",
+   "state": "AL",
+   "date": "2026-09-04",
+   "reportNumber": "26-00038-262",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-tuscaloosa-healthcare",
+   "domains": [
+    "Environment of care",
+    "Patient safety"
+   ],
+   "themes": [
+    "Clean/dirty storage separation",
+    "Test result communication"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "open",
+     "closed": null,
+     "text": "The Director takes appropriate action so staff properly store cleaning supplies and leaders monitor corrective actions for sustained compliance, in accordance with Veterans Health Administration Directive 1131, Management of Infectious Diseases and Infection Prevention and Control Programs."
+    },
+    {
+     "n": 2,
+     "status": "closed",
+     "closed": "9/4/2026",
+     "text": "The Director takes appropriate action so staff update the facility policy for communicating test results and develop service-level workflows that describe team members’ roles in the process, as required by Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients."
+    }
+   ]
+  },
+  {
+   "facility": "VA Philadelphia Healthcare System",
+   "city": "Philadelphia",
+   "state": "PA",
+   "date": "2026-09-04",
+   "reportNumber": "25-00255-206",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-philadelphia-healthcare",
+   "domains": [
+    "Environment of care"
+   ],
+   "themes": [
+    "Compressed gas storage",
+    "Security surveillance"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "open",
+     "closed": null,
+     "text": "The Veterans Integrated Service Network Director and facility Director take appropriate action for the surveillance system to be fully operational."
+    },
+    {
+     "n": 2,
+     "status": "open",
+     "closed": null,
+     "text": "The Director takes appropriate actions to secure portable liquid nitrogen tanks and store the tanks according to the National Fire Protection Association’s Compressed Gases and Cryogenic Fluids Code, NFPA 55 requirements."
+    }
+   ]
+  },
+  {
    "facility": "Southern Arizona VA Health Care System",
    "city": "Tucson",
    "state": "AZ",
@@ -866,65 +925,6 @@
    ]
   },
   {
-   "facility": "VA Philadelphia Healthcare System",
-   "city": "Philadelphia",
-   "state": "PA",
-   "date": "2026-09-04",
-   "reportNumber": "25-00255-206",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-philadelphia-healthcare",
-   "domains": [
-    "Environment of care"
-   ],
-   "themes": [
-    "Compressed gas storage",
-    "Security surveillance"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "open",
-     "closed": null,
-     "text": "The Veterans Integrated Service Network Director and facility Director take appropriate action for the surveillance system to be fully operational."
-    },
-    {
-     "n": 2,
-     "status": "open",
-     "closed": null,
-     "text": "The Director takes appropriate actions to secure portable liquid nitrogen tanks and store the tanks according to the National Fire Protection Association’s Compressed Gases and Cryogenic Fluids Code, NFPA 55  requirements."
-    }
-   ]
-  },
-  {
-   "facility": "VA Tuscaloosa Healthcare System",
-   "city": "Tuscaloosa",
-   "state": "AL",
-   "date": "2026-09-04",
-   "reportNumber": "26-00038-262",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-tuscaloosa-healthcare",
-   "domains": [
-    "Environment of care",
-    "Patient safety"
-   ],
-   "themes": [
-    "Clean/dirty storage separation",
-    "Test result communication"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "open",
-     "closed": null,
-     "text": "The Director takes appropriate action so staff properly store cleaning supplies and leaders monitor corrective actions for sustained compliance, in accordance with Veterans Health Administration Directive 1131, Management of Infectious Diseases and Infection Prevention and Control Programs."
-    },
-    {
-     "n": 2,
-     "status": "closed",
-     "closed": "9/4/2026",
-     "text": "The Director takes appropriate action so staff update the facility policy for communicating test results and develop service-level workflows that describe team members’ roles in the process, as required by Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients."
-    }
-   ]
-  },
-  {
    "facility": "VA Mountain Home Healthcare System",
    "city": "Mountain Home",
    "state": "TN",
@@ -945,17 +945,6 @@
      "text": "Facility leaders take appropriate actions so staff develop a written workflow for each service that is consistent with Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
     }
    ]
-  },
-  {
-   "facility": "VA Lebanon Healthcare System",
-   "city": "Lebanon",
-   "state": "PA",
-   "date": "2026-08-26",
-   "reportNumber": "25-00259-250",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-lebanon-healthcare-system",
-   "domains": [],
-   "themes": [],
-   "recs": []
   },
   {
    "facility": "VA New Mexico Healthcare System",
@@ -980,12 +969,12 @@
    ]
   },
   {
-   "facility": "Northern Arizona VA Health Care System",
-   "city": "Prescott",
-   "state": "AZ",
+   "facility": "VA Lebanon Healthcare System",
+   "city": "Lebanon",
+   "state": "PA",
    "date": "2026-08-26",
-   "reportNumber": "26-00052-251",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-northern-arizona-va-health",
+   "reportNumber": "25-00259-250",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-lebanon-healthcare-system",
    "domains": [],
    "themes": [],
    "recs": []
@@ -1035,6 +1024,17 @@
    ]
   },
   {
+   "facility": "Northern Arizona VA Health Care System",
+   "city": "Prescott",
+   "state": "AZ",
+   "date": "2026-08-26",
+   "reportNumber": "26-00052-251",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-northern-arizona-va-health",
+   "domains": [],
+   "themes": [],
+   "recs": []
+  },
+  {
    "facility": "VA Pacific Islands Health Care System",
    "city": "Honolulu",
    "state": "HI",
@@ -1057,23 +1057,23 @@
    ]
   },
   {
-   "facility": "VA Houston Healthcare System",
-   "city": "Houston",
-   "state": "TX",
-   "date": "2026-08-13",
-   "reportNumber": "26-00029-236",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-houston-healthcare-system",
-   "domains": [],
-   "themes": [],
-   "recs": []
-  },
-  {
    "facility": "VA Kansas City Healthcare System",
    "city": "Kansas City",
    "state": "MO",
    "date": "2026-08-13",
    "reportNumber": "25-00204-215",
    "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-kansas-city-healthcare",
+   "domains": [],
+   "themes": [],
+   "recs": []
+  },
+  {
+   "facility": "VA Houston Healthcare System",
+   "city": "Houston",
+   "state": "TX",
+   "date": "2026-08-13",
+   "reportNumber": "26-00029-236",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-houston-healthcare-system",
    "domains": [],
    "themes": [],
    "recs": []
@@ -1099,6 +1099,17 @@
      "text": "The Associate Director keeps patient care areas clean and stores dirty and clean items separately."
     }
    ]
+  },
+  {
+   "facility": "VA Syracuse Healthcare System",
+   "city": "Syracuse",
+   "state": "NY",
+   "date": "2026-08-11",
+   "reportNumber": "25-00246-220",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-syracuse-healthcare-system",
+   "domains": [],
+   "themes": [],
+   "recs": []
   },
   {
    "facility": "VA Asheville Health Care System",
@@ -1143,17 +1154,6 @@
      "text": "The Chief of Staff and Associate Director of Patient Care Services/Nurse Executive develop and implement written workflows for each service that comply with Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
     }
    ]
-  },
-  {
-   "facility": "VA Syracuse Healthcare System",
-   "city": "Syracuse",
-   "state": "NY",
-   "date": "2026-08-11",
-   "reportNumber": "25-00246-220",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-syracuse-healthcare-system",
-   "domains": [],
-   "themes": [],
-   "recs": []
   },
   {
    "facility": "VA Wichita Healthcare System",
@@ -1217,36 +1217,6 @@
    "recs": []
   },
   {
-   "facility": "VA El Paso Healthcare System",
-   "city": "El Paso",
-   "state": "TX",
-   "date": "2026-07-16",
-   "reportNumber": "25-00193-155",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-el-paso-healthcare-system",
-   "domains": [
-    "Environment of care",
-    "Integrated veteran care"
-   ],
-   "themes": [
-    "Cleanliness/infection control",
-    "Toxic exposure screening"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "open",
-     "closed": null,
-     "text": "Executive leaders ensure staff maintain a clean and safe environment."
-    },
-    {
-     "n": 2,
-     "status": "open",
-     "closed": null,
-     "text": "The Medical Center Director ensures providers complete secondary toxic exposure screenings within 30 days."
-    }
-   ]
-  },
-  {
    "facility": "VA San Diego Healthcare System",
    "city": "San Diego",
    "state": "CA",
@@ -1287,7 +1257,37 @@
      "n": 4,
      "status": "closed",
      "closed": "10/9/2026",
-     "text": "Facility leaders ensure staff update the facility policy to include all elements to communicate test results to patients, as required in Veterans Health Administration Directive 1088(1),  Communicating Test Results to Providers and Patients ."
+     "text": "Facility leaders ensure staff update the facility policy to include all elements to communicate test results to patients, as required in Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
+    }
+   ]
+  },
+  {
+   "facility": "VA El Paso Healthcare System",
+   "city": "El Paso",
+   "state": "TX",
+   "date": "2026-07-16",
+   "reportNumber": "25-00193-155",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-el-paso-healthcare-system",
+   "domains": [
+    "Environment of care",
+    "Integrated veteran care"
+   ],
+   "themes": [
+    "Cleanliness/infection control",
+    "Toxic exposure screening"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "open",
+     "closed": null,
+     "text": "Executive leaders ensure staff maintain a clean and safe environment."
+    },
+    {
+     "n": 2,
+     "status": "open",
+     "closed": null,
+     "text": "The Medical Center Director ensures providers complete secondary toxic exposure screenings within 30 days."
     }
    ]
   },
@@ -1391,6 +1391,50 @@
    "recs": []
   },
   {
+   "facility": "VA Palo Alto Health Care System",
+   "city": "Palo Alto",
+   "state": "CA",
+   "date": "2026-03-12",
+   "reportNumber": "25-00241-73",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-palo-alto-health-care",
+   "domains": [
+    "Environment of care",
+    "Patient safety"
+   ],
+   "themes": [
+    "Clean/dirty storage separation",
+    "Emergency door access",
+    "Test result communication",
+    "Wandering patient safety"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "closed",
+     "closed": "7/15/2026",
+     "text": "The Executive Medical Center Director ensures clinical staff can open all doors to shared bathrooms."
+    },
+    {
+     "n": 2,
+     "status": "closed",
+     "closed": "7/15/2026",
+     "text": "The Executive Medical Center Director ensures staff keep exterior doors closed to minimize risk to wandering patients."
+    },
+    {
+     "n": 3,
+     "status": "closed",
+     "closed": "3/12/2026",
+     "text": "The Executive Medical Center Director ensures staff store clean and dirty equipment and supplies separately."
+    },
+    {
+     "n": 4,
+     "status": "closed",
+     "closed": "7/15/2026",
+     "text": "The Executive Medical Center Director ensures each service has workflows to communicate test results."
+    }
+   ]
+  },
+  {
    "facility": "VA Loma Linda Healthcare System",
    "city": "Loma Linda",
    "state": "CA",
@@ -1457,50 +1501,6 @@
      "status": "open",
      "closed": null,
      "text": "The Medical Center Director ensures executive leaders attend Quality and Patient Safety Council meetings."
-    }
-   ]
-  },
-  {
-   "facility": "VA Palo Alto Health Care System",
-   "city": "Palo Alto",
-   "state": "CA",
-   "date": "2026-03-12",
-   "reportNumber": "25-00241-73",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-palo-alto-health-care",
-   "domains": [
-    "Environment of care",
-    "Patient safety"
-   ],
-   "themes": [
-    "Clean/dirty storage separation",
-    "Emergency door access",
-    "Test result communication",
-    "Wandering patient safety"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "closed",
-     "closed": "7/15/2026",
-     "text": "The Executive Medical Center Director ensures clinical staff can open all doors to shared bathrooms."
-    },
-    {
-     "n": 2,
-     "status": "closed",
-     "closed": "7/15/2026",
-     "text": "The Executive Medical Center Director ensures staff keep exterior doors closed to minimize risk to wandering patients."
-    },
-    {
-     "n": 3,
-     "status": "closed",
-     "closed": "3/12/2026",
-     "text": "The Executive Medical Center Director ensures staff store clean and dirty equipment and supplies separately."
-    },
-    {
-     "n": 4,
-     "status": "closed",
-     "closed": "7/15/2026",
-     "text": "The Executive Medical Center Director ensures each service has workflows to communicate test results."
     }
    ]
   },
@@ -1638,6 +1638,36 @@
    "recs": []
   },
   {
+   "facility": "VA Sierra Nevada Health Care System",
+   "city": "Reno",
+   "state": "NV",
+   "date": "2026-02-12",
+   "reportNumber": "25-00243-56",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-sierra-nevada-health-care",
+   "domains": [
+    "Environment of care",
+    "Patient safety"
+   ],
+   "themes": [
+    "Clean/dirty storage separation",
+    "Test result communication"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "closed",
+     "closed": "6/29/2026",
+     "text": "The Medical Center Director ensures staff properly store clean medical equipment."
+    },
+    {
+     "n": 2,
+     "status": "closed",
+     "closed": "2/12/2026",
+     "text": "Facility leaders develop written workflows for each service to ensure timely communication of test results to providers and patients."
+    }
+   ]
+  },
+  {
    "facility": "VA Central California Health Care System",
    "city": "Fresno",
    "state": "CA",
@@ -1698,36 +1728,6 @@
      "status": "closed",
      "closed": "7/7/2026",
      "text": "The Executive Director reviews staffing levels for the Housing and Urban Development-Veterans Affairs Supportive Housing program and takes action as needed."
-    }
-   ]
-  },
-  {
-   "facility": "VA Sierra Nevada Health Care System",
-   "city": "Reno",
-   "state": "NV",
-   "date": "2026-02-12",
-   "reportNumber": "25-00243-56",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-sierra-nevada-health-care",
-   "domains": [
-    "Environment of care",
-    "Patient safety"
-   ],
-   "themes": [
-    "Clean/dirty storage separation",
-    "Test result communication"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "closed",
-     "closed": "6/29/2026",
-     "text": "The Medical Center Director ensures staff properly store clean medical equipment."
-    },
-    {
-     "n": 2,
-     "status": "closed",
-     "closed": "2/12/2026",
-     "text": "Facility leaders develop written workflows for each service to ensure timely communication of test results to providers and patients."
     }
    ]
   },
@@ -1946,45 +1946,6 @@
    ]
   },
   {
-   "facility": "VA Clarksburg Healthcare System",
-   "city": "Clarksburg",
-   "state": "WV",
-   "date": "2025-12-17",
-   "reportNumber": "24-03206-21",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-clarksburg-healthcare",
-   "domains": [
-    "Environment of care",
-    "Patient safety"
-   ],
-   "themes": [
-    "Clean/dirty storage separation",
-    "Cleanliness/infection control",
-    "Supply storage",
-    "Test result communication",
-    "Policy change monitoring"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "closed",
-     "closed": "5/11/2026",
-     "text": "Executive leaders ensure staff store clean and dirty equipment separately, repair torn furnishings, and keep the environment clean."
-    },
-    {
-     "n": 2,
-     "status": "closed",
-     "closed": "12/17/2025",
-     "text": "Executive leaders ensure staff evaluate the cardboard backboards for pest concerns and reduce the risk of infection."
-    },
-    {
-     "n": 3,
-     "status": "closed",
-     "closed": "8/5/2026",
-     "text": "Executive leaders ensure the facility’s policy for test result communication aligns with the VHA directive."
-    }
-   ]
-  },
-  {
    "facility": "VA Gulf Coast Healthcare System",
    "city": "Biloxi",
    "state": "MS",
@@ -1997,8 +1958,8 @@
    ],
    "themes": [
     "Cleanliness/infection control",
-    "Repeat findings",
     "Expired supplies",
+    "Repeat findings",
     "Test result communication",
     "Women veterans' restroom supplies"
    ],
@@ -2030,33 +1991,79 @@
    ]
   },
   {
-   "facility": "South Texas Veterans Health Care System",
-   "city": "San Antonio",
-   "state": "TX",
-   "date": "2025-12-10",
-   "reportNumber": "25-00192-15",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-south-texas-veterans-health",
+   "facility": "VA Clarksburg Healthcare System",
+   "city": "Clarksburg",
+   "state": "WV",
+   "date": "2025-12-17",
+   "reportNumber": "24-03206-21",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-clarksburg-healthcare",
    "domains": [
     "Environment of care",
     "Patient safety"
    ],
    "themes": [
-    "Cleanliness/infection control",
     "Clean/dirty storage separation",
+    "Cleanliness/infection control",
+    "Policy change monitoring",
+    "Supply storage",
     "Test result communication"
    ],
    "recs": [
     {
      "n": 1,
      "status": "closed",
-     "closed": "4/15/2026",
-     "text": "The Associate Director for Operations ensures staff keep patient care areas clean and clean storage areas free of dirty items and equipment."
+     "closed": "5/11/2026",
+     "text": "Executive leaders ensure staff store clean and dirty equipment separately, repair torn furnishings, and keep the environment clean."
     },
     {
      "n": 2,
      "status": "closed",
-     "closed": "4/15/2026",
-     "text": "The Chief of Staff ensures the facility has workflows for all services to identify team members’ roles in the test result communication process."
+     "closed": "12/17/2025",
+     "text": "Executive leaders ensure staff evaluate the cardboard backboards for pest concerns and reduce the risk of infection."
+    },
+    {
+     "n": 3,
+     "status": "closed",
+     "closed": "8/5/2026",
+     "text": "Executive leaders ensure the facility’s policy for test result communication aligns with the VHA directive."
+    }
+   ]
+  },
+  {
+   "facility": "VA Tampa Healthcare System",
+   "city": "Tampa",
+   "state": "FL",
+   "date": "2025-12-10",
+   "reportNumber": "25-00199-19",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-tampa-healthcare-system",
+   "domains": [
+    "Environment of care",
+    "Patient safety"
+   ],
+   "themes": [
+    "Cleanliness/infection control",
+    "Expired supplies",
+    "Medical emergency response",
+    "Test result communication"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "closed",
+     "closed": "12/10/2025",
+     "text": "Facility leaders ensure staff have access to sinks or hand hygiene supplies in or near soiled utility rooms that store biohazardous materials."
+    },
+    {
+     "n": 2,
+     "status": "closed",
+     "closed": "4/20/2026",
+     "text": "Facility leaders assess how staff monitor video laryngoscope supplies to ensure they are readily available, and staff remove supplies when they expire."
+    },
+    {
+     "n": 3,
+     "status": "closed",
+     "closed": "7/27/2026",
+     "text": "Facility leaders ensure staff develop service-level workflows for the communication of test results per the VHA directive."
     }
    ]
   },
@@ -2111,40 +2118,33 @@
    ]
   },
   {
-   "facility": "VA Tampa Healthcare System",
-   "city": "Tampa",
-   "state": "FL",
+   "facility": "South Texas Veterans Health Care System",
+   "city": "San Antonio",
+   "state": "TX",
    "date": "2025-12-10",
-   "reportNumber": "25-00199-19",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-tampa-healthcare-system",
+   "reportNumber": "25-00192-15",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-south-texas-veterans-health",
    "domains": [
     "Environment of care",
     "Patient safety"
    ],
    "themes": [
+    "Clean/dirty storage separation",
     "Cleanliness/infection control",
-    "Expired supplies",
-    "Medical emergency response",
     "Test result communication"
    ],
    "recs": [
     {
      "n": 1,
      "status": "closed",
-     "closed": "12/10/2025",
-     "text": "Facility leaders ensure staff have access to sinks or hand hygiene supplies in or near soiled utility rooms that store biohazardous materials."
+     "closed": "4/15/2026",
+     "text": "The Associate Director for Operations ensures staff keep patient care areas clean and clean storage areas free of dirty items and equipment."
     },
     {
      "n": 2,
      "status": "closed",
-     "closed": "4/20/2026",
-     "text": "Facility leaders assess how staff monitor video laryngoscope supplies to ensure they are readily available, and staff remove supplies when they expire."
-    },
-    {
-     "n": 3,
-     "status": "closed",
-     "closed": "7/27/2026",
-     "text": "Facility leaders ensure staff develop service-level workflows for the communication of test results per the VHA directive."
+     "closed": "4/15/2026",
+     "text": "The Chief of Staff ensures the facility has workflows for all services to identify team members’ roles in the test result communication process."
     }
    ]
   },
@@ -2160,8 +2160,8 @@
     "Integrated veteran care"
    ],
    "themes": [
-    "Test result communication",
-    "Community care delays"
+    "Community care delays",
+    "Test result communication"
    ],
    "recs": [
     {
@@ -2179,6 +2179,72 @@
    ]
   },
   {
+   "facility": "VA Tennessee Valley Healthcare System",
+   "city": "Nashville",
+   "state": "TN",
+   "date": "2025-11-19",
+   "reportNumber": "25-00197-236",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-tennessee-valley",
+   "domains": [
+    "Environment of care"
+   ],
+   "themes": [
+    "Equipment maintenance/labeling",
+    "Repeat findings",
+    "Staffing shortages"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "closed",
+     "closed": "11/19/2025",
+     "text": "Facility leaders ensure staff perform preventive maintenance in accordance with manufacturers’ guidelines and clearly define staff responsibilities."
+    },
+    {
+     "n": 2,
+     "status": "closed",
+     "closed": "11/19/2025",
+     "text": "Executive leaders continue to recruit a permanent chief of biomedical engineering and implement processes to prevent repeat environment of care findings."
+    }
+   ]
+  },
+  {
+   "facility": "Minneapolis VA Health Care System",
+   "city": "Minneapolis",
+   "state": "MN",
+   "date": "2025-11-19",
+   "reportNumber": "24-03416-237",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-minneapolis-va-health-care",
+   "domains": [
+    "Environment of care"
+   ],
+   "themes": [
+    "Equipment maintenance/labeling",
+    "Medication storage/labeling",
+    "Women veterans' restroom supplies"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "closed",
+     "closed": "3/26/2026",
+     "text": "The Associate Director ensures staff make feminine hygiene products available in public women’s and unisex restrooms."
+    },
+    {
+     "n": 2,
+     "status": "open",
+     "closed": null,
+     "text": "The Medical Center Director ensures staff implement processes to secure medications from unauthorized access."
+    },
+    {
+     "n": 3,
+     "status": "closed",
+     "closed": "11/19/2025",
+     "text": "Biomedical staff indicate inspection dates on all equipment."
+    }
+   ]
+  },
+  {
    "facility": "Miami VA Healthcare System",
    "city": "Miami",
    "state": "FL",
@@ -2189,12 +2255,12 @@
     "Environment of care"
    ],
    "themes": [
-    "Equipment maintenance/labeling",
     "Clean/dirty storage separation",
     "Cleanliness/infection control",
+    "Environment of care program oversight",
+    "Equipment maintenance/labeling",
     "Expired supplies",
-    "Supply storage",
-    "Environment of care program oversight"
+    "Supply storage"
    ],
    "recs": [
     {
@@ -2230,129 +2296,6 @@
    ]
   },
   {
-   "facility": "Minneapolis VA Health Care System",
-   "city": "Minneapolis",
-   "state": "MN",
-   "date": "2025-11-19",
-   "reportNumber": "24-03416-237",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-minneapolis-va-health-care",
-   "domains": [
-    "Environment of care"
-   ],
-   "themes": [
-    "Medication storage/labeling",
-    "Equipment maintenance/labeling",
-    "Women veterans' restroom supplies"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "closed",
-     "closed": "3/26/2026",
-     "text": "The Associate Director ensures staff make feminine hygiene products available in public women’s and unisex restrooms."
-    },
-    {
-     "n": 2,
-     "status": "open",
-     "closed": null,
-     "text": "The Medical Center Director ensures staff implement processes to secure medications from unauthorized access."
-    },
-    {
-     "n": 3,
-     "status": "closed",
-     "closed": "11/19/2025",
-     "text": "Biomedical staff indicate inspection dates on all equipment."
-    }
-   ]
-  },
-  {
-   "facility": "VA Tennessee Valley Healthcare System",
-   "city": "Nashville",
-   "state": "TN",
-   "date": "2025-11-19",
-   "reportNumber": "25-00197-236",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-tennessee-valley",
-   "domains": [
-    "Environment of care"
-   ],
-   "themes": [
-    "Equipment maintenance/labeling",
-    "Repeat findings",
-    "Staffing shortages"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "closed",
-     "closed": "11/19/2025",
-     "text": "Facility leaders ensure staff perform preventive maintenance in accordance with manufacturers’ guidelines and clearly define staff responsibilities."
-    },
-    {
-     "n": 2,
-     "status": "closed",
-     "closed": "11/19/2025",
-     "text": "Executive leaders continue to recruit a permanent chief of biomedical engineering and implement processes to prevent repeat environment of care findings."
-    }
-   ]
-  },
-  {
-   "facility": "VA Detroit Healthcare System",
-   "city": "Detroit",
-   "state": "MI",
-   "date": "2025-10-17",
-   "reportNumber": "24-00607-241",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-detroit-healthcare-system",
-   "domains": [
-    "Environment of care"
-   ],
-   "themes": [
-    "Cleanliness/infection control",
-    "Wayfinding/signage",
-    "Clean/dirty storage separation",
-    "Fire/life safety",
-    "Equipment maintenance/labeling",
-    "Patient privacy"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "closed",
-     "closed": "2/26/2026",
-     "text": "Executive leaders ensure staff fix or replace damaged furnishings to allow effective cleaning and disinfection."
-    },
-    {
-     "n": 2,
-     "status": "closed",
-     "closed": "10/17/2025",
-     "text": "Executive leaders ensure staff place paper maps at information desks to assist veterans in navigating the facility."
-    },
-    {
-     "n": 3,
-     "status": "closed",
-     "closed": "2/26/2026",
-     "text": "Executive leaders ensure staff store clean equipment in a sanitary environment."
-    },
-    {
-     "n": 4,
-     "status": "closed",
-     "closed": "2/26/2026",
-     "text": "Executive leaders ensure hallways and exits are free from obstruction."
-    },
-    {
-     "n": 5,
-     "status": "closed",
-     "closed": "2/26/2026",
-     "text": "Executive leaders ensure staff remove defective equipment from clinical areas to prevent use."
-    },
-    {
-     "n": 6,
-     "status": "closed",
-     "closed": "2/26/2026",
-     "text": "Executive leaders ensure staff have computer screen privacy filters to protect patients’ personally identifiable information."
-    }
-   ]
-  },
-  {
    "facility": "VA Louisville Healthcare System",
    "city": "Louisville",
    "state": "KY",
@@ -2366,16 +2309,16 @@
     "Integrated veteran care"
    ],
    "themes": [
-    "Fire/life safety",
-    "Wayfinding/signage",
     "Accessibility",
-    "Cleanliness/infection control",
-    "Slip/fall hazards",
     "Clean/dirty storage separation",
-    "Test result communication",
-    "Primary care panel size",
+    "Cleanliness/infection control",
+    "Environment of care program oversight",
+    "Fire/life safety",
     "Phone access",
-    "Environment of care program oversight"
+    "Primary care panel size",
+    "Slip/fall hazards",
+    "Test result communication",
+    "Wayfinding/signage"
    ],
    "recs": [
     {
@@ -2459,6 +2402,63 @@
    ]
   },
   {
+   "facility": "VA Detroit Healthcare System",
+   "city": "Detroit",
+   "state": "MI",
+   "date": "2025-10-17",
+   "reportNumber": "24-00607-241",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-detroit-healthcare-system",
+   "domains": [
+    "Environment of care"
+   ],
+   "themes": [
+    "Clean/dirty storage separation",
+    "Cleanliness/infection control",
+    "Equipment maintenance/labeling",
+    "Fire/life safety",
+    "Patient privacy",
+    "Wayfinding/signage"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "closed",
+     "closed": "2/26/2026",
+     "text": "Executive leaders ensure staff fix or replace damaged furnishings to allow effective cleaning and disinfection."
+    },
+    {
+     "n": 2,
+     "status": "closed",
+     "closed": "10/17/2025",
+     "text": "Executive leaders ensure staff place paper maps at information desks to assist veterans in navigating the facility."
+    },
+    {
+     "n": 3,
+     "status": "closed",
+     "closed": "2/26/2026",
+     "text": "Executive leaders ensure staff store clean equipment in a sanitary environment."
+    },
+    {
+     "n": 4,
+     "status": "closed",
+     "closed": "2/26/2026",
+     "text": "Executive leaders ensure hallways and exits are free from obstruction."
+    },
+    {
+     "n": 5,
+     "status": "closed",
+     "closed": "2/26/2026",
+     "text": "Executive leaders ensure staff remove defective equipment from clinical areas to prevent use."
+    },
+    {
+     "n": 6,
+     "status": "closed",
+     "closed": "2/26/2026",
+     "text": "Executive leaders ensure staff have computer screen privacy filters to protect patients’ personally identifiable information."
+    }
+   ]
+  },
+  {
    "facility": "Eastern Oklahoma VA Health Care System",
    "city": "Muskogee",
    "state": "OK",
@@ -2506,6 +2506,28 @@
    "recs": []
   },
   {
+   "facility": "VA Alexandria Healthcare System",
+   "city": "Pineville",
+   "state": "LA",
+   "date": "2025-09-11",
+   "reportNumber": "24-03418-205",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-alexandria-healthcare",
+   "domains": [
+    "Patient safety"
+   ],
+   "themes": [
+    "Test result communication"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "closed",
+     "closed": "6/3/2026",
+     "text": "Facility leaders ensure providers who order tests communicate the results to patients timely."
+    }
+   ]
+  },
+  {
    "facility": "Jonathan M. Wainwright Memorial VA Medical Center",
    "city": "Walla Walla",
    "state": "WA",
@@ -2517,14 +2539,14 @@
     "Patient safety"
    ],
    "themes": [
-    "Wayfinding/signage",
+    "Cleanliness/infection control",
+    "Environment of care program oversight",
+    "Expired supplies",
     "Fire/life safety",
     "Repeat findings",
-    "Cleanliness/infection control",
-    "Expired supplies",
-    "Test result communication",
     "Root cause analysis follow-through",
-    "Environment of care program oversight"
+    "Test result communication",
+    "Wayfinding/signage"
    ],
    "recs": [
     {
@@ -2584,28 +2606,6 @@
    ]
   },
   {
-   "facility": "VA Alexandria Healthcare System",
-   "city": "Pineville",
-   "state": "LA",
-   "date": "2025-09-11",
-   "reportNumber": "24-03418-205",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-alexandria-healthcare",
-   "domains": [
-    "Patient safety"
-   ],
-   "themes": [
-    "Test result communication"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "closed",
-     "closed": "6/3/2026",
-     "text": "Facility leaders ensure providers who order tests communicate the results to patients timely."
-    }
-   ]
-  },
-  {
    "facility": "VA Jackson Healthcare System",
    "city": "Jackson",
    "state": "MS",
@@ -2639,9 +2639,9 @@
     "Patient safety"
    ],
    "themes": [
-    "Toxic exposure screening",
+    "Clinical care oversight",
     "Test result communication",
-    "Clinical care oversight"
+    "Toxic exposure screening"
    ],
    "recs": [
     {
@@ -2689,44 +2689,6 @@
    ]
   },
   {
-   "facility": "VA Central Ohio Health Care System",
-   "city": "Columbus",
-   "state": "OH",
-   "date": "2025-08-06",
-   "reportNumber": "24-00593-181",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-central-ohio-health-care",
-   "domains": [
-    "Culture",
-    "Environment of care",
-    "Veteran-centered safety net"
-   ],
-   "themes": [
-    "Leadership engagement",
-    "Cleanliness/infection control",
-    "Staffing shortages"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "closed",
-     "closed": "8/6/2025",
-     "text": "Facility leaders implement a standardized process for service-level communication to consistently disseminate information."
-    },
-    {
-     "n": 2,
-     "status": "closed",
-     "closed": "8/6/2025",
-     "text": "Facility leaders ensure Environmental Management Services staff keep patient areas clean and walls intact to minimize the spread of infection."
-    },
-    {
-     "n": 3,
-     "status": "closed",
-     "closed": "8/6/2025",
-     "text": "The Medical Center Director evaluates the allocation of resources to ensure the Housing and Urban Development-Veterans Affairs Supportive Housing program meets the needs of the veterans served."
-    }
-   ]
-  },
-  {
    "facility": "VA Cincinnati Healthcare System",
    "city": "Cincinnati",
    "state": "OH",
@@ -2738,14 +2700,14 @@
     "Patient safety"
    ],
    "themes": [
-    "Repeat findings",
-    "Fire/life safety",
-    "Equipment maintenance/labeling",
     "Cleanliness/infection control",
-    "Test result communication",
+    "Environment of care program oversight",
+    "Equipment maintenance/labeling",
+    "Fire/life safety",
+    "Repeat findings",
     "Root cause analysis follow-through",
     "Staffing shortages",
-    "Environment of care program oversight"
+    "Test result communication"
    ],
    "recs": [
     {
@@ -2805,41 +2767,53 @@
    ]
   },
   {
-   "facility": "Sheridan VA Health Care System",
-   "city": "Sheridan",
-   "state": "WY",
-   "date": "2025-07-10",
-   "reportNumber": "24-00615-163",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-sheridan-va-health-care",
+   "facility": "VA Central Ohio Health Care System",
+   "city": "Columbus",
+   "state": "OH",
+   "date": "2025-08-06",
+   "reportNumber": "24-00593-181",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-central-ohio-health-care",
    "domains": [
+    "Culture",
     "Environment of care",
-    "Patient safety"
+    "Veteran-centered safety net"
    ],
    "themes": [
-    "Accessibility",
-    "Wayfinding/signage",
-    "Test result communication"
+    "Cleanliness/infection control",
+    "Leadership engagement",
+    "Staffing shortages"
    ],
    "recs": [
     {
      "n": 1,
      "status": "closed",
-     "closed": "5/28/2026",
-     "text": "The OIG recommends facility leaders implement tools to help sensory-impaired veterans navigate the facility."
+     "closed": "8/6/2025",
+     "text": "Facility leaders implement a standardized process for service-level communication to consistently disseminate information."
     },
     {
      "n": 2,
-     "status": "open",
-     "closed": null,
-     "text": "The OIG recommends facility leaders ensure the facility has a policy for test result communication that includes methods to monitor the effectiveness of the patient notification process."
+     "status": "closed",
+     "closed": "8/6/2025",
+     "text": "Facility leaders ensure Environmental Management Services staff keep patient areas clean and walls intact to minimize the spread of infection."
     },
     {
      "n": 3,
-     "status": "open",
-     "closed": null,
-     "text": "The OIG recommends facility leaders ensure staff develop workflows for the communication of test results for each service."
+     "status": "closed",
+     "closed": "8/6/2025",
+     "text": "The Medical Center Director evaluates the allocation of resources to ensure the Housing and Urban Development-Veterans Affairs Supportive Housing program meets the needs of the veterans served."
     }
    ]
+  },
+  {
+   "facility": "VA Coatesville Healthcare System",
+   "city": "Coatesville",
+   "state": "PA",
+   "date": "2025-07-10",
+   "reportNumber": "24-03207-161",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-coatesville-healthcare",
+   "domains": [],
+   "themes": [],
+   "recs": []
   },
   {
    "facility": "VA Boston Healthcare System",
@@ -2853,13 +2827,13 @@
     "Patient safety"
    ],
    "themes": [
-    "Repeat findings",
-    "Cleanliness/infection control",
     "Clean/dirty storage separation",
-    "Supply storage",
+    "Cleanliness/infection control",
+    "Environment of care program oversight",
     "Medication storage/labeling",
     "Policy change monitoring",
-    "Environment of care program oversight"
+    "Repeat findings",
+    "Supply storage"
    ],
    "recs": [
     {
@@ -2931,15 +2905,41 @@
    ]
   },
   {
-   "facility": "VA Coatesville Healthcare System",
-   "city": "Coatesville",
-   "state": "PA",
+   "facility": "Sheridan VA Health Care System",
+   "city": "Sheridan",
+   "state": "WY",
    "date": "2025-07-10",
-   "reportNumber": "24-03207-161",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-coatesville-healthcare",
-   "domains": [],
-   "themes": [],
-   "recs": []
+   "reportNumber": "24-00615-163",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-sheridan-va-health-care",
+   "domains": [
+    "Environment of care",
+    "Patient safety"
+   ],
+   "themes": [
+    "Accessibility",
+    "Test result communication",
+    "Wayfinding/signage"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "closed",
+     "closed": "5/28/2026",
+     "text": "The OIG recommends facility leaders implement tools to help sensory-impaired veterans navigate the facility."
+    },
+    {
+     "n": 2,
+     "status": "open",
+     "closed": null,
+     "text": "The OIG recommends facility leaders ensure the facility has a policy for test result communication that includes methods to monitor the effectiveness of the patient notification process."
+    },
+    {
+     "n": 3,
+     "status": "open",
+     "closed": null,
+     "text": "The OIG recommends facility leaders ensure staff develop workflows for the communication of test results for each service."
+    }
+   ]
   },
   {
    "facility": "VA Connecticut Healthcare System",
@@ -2954,10 +2954,10 @@
     "Integrated veteran care"
    ],
    "themes": [
-    "Equipment maintenance/labeling",
     "Clinic efficiency",
-    "Phone access",
-    "Environment of care program oversight"
+    "Environment of care program oversight",
+    "Equipment maintenance/labeling",
+    "Phone access"
    ],
    "recs": [
     {
@@ -2998,8 +2998,8 @@
    ],
    "themes": [
     "Cleanliness/infection control",
-    "Patient privacy",
     "Expired supplies",
+    "Patient privacy",
     "Staffing shortages"
    ],
    "recs": [
@@ -3026,11 +3026,11 @@
     "Veteran-centered safety net"
    ],
    "themes": [
-    "Security surveillance",
-    "Test result communication",
     "Adverse event disclosure/reporting",
+    "Phone access",
     "Primary care panel size",
-    "Phone access"
+    "Security surveillance",
+    "Test result communication"
    ],
    "recs": [
     {
@@ -3089,12 +3089,12 @@
     "Patient safety"
    ],
    "themes": [
-    "Expired supplies",
-    "Supply storage",
-    "Repeat findings",
-    "Medical emergency response",
     "Cleanliness/infection control",
     "Equipment maintenance/labeling",
+    "Expired supplies",
+    "Medical emergency response",
+    "Repeat findings",
+    "Supply storage",
     "Test result communication"
    ],
    "recs": [
@@ -3181,8 +3181,8 @@
    "themes": [
     "Accessibility",
     "Equipment maintenance/labeling",
-    "Test result communication",
-    "Leadership engagement"
+    "Leadership engagement",
+    "Test result communication"
    ],
    "recs": [
     {
@@ -3218,10 +3218,10 @@
     "Patient safety"
    ],
    "themes": [
+    "Adverse event disclosure/reporting",
     "Culture of safety/trust",
     "Repeat findings",
-    "Test result communication",
-    "Adverse event disclosure/reporting"
+    "Test result communication"
    ],
    "recs": [
     {
@@ -3268,12 +3268,12 @@
     "Patient safety"
    ],
    "themes": [
-    "Equipment maintenance/labeling",
-    "Medication storage/labeling",
-    "Compressed gas storage",
-    "Cleanliness/infection control",
-    "Expired supplies",
     "Clean/dirty storage separation",
+    "Cleanliness/infection control",
+    "Compressed gas storage",
+    "Equipment maintenance/labeling",
+    "Expired supplies",
+    "Medication storage/labeling",
     "Repeat findings"
    ],
    "recs": [
@@ -3333,15 +3333,15 @@
     "Patient safety"
    ],
    "themes": [
-    "Toxic exposure screening",
-    "Fire/life safety",
-    "Equipment maintenance/labeling",
-    "Cleanliness/infection control",
     "Clean/dirty storage separation",
-    "Supply storage",
+    "Cleanliness/infection control",
+    "Environment of care program oversight",
+    "Equipment maintenance/labeling",
+    "Fire/life safety",
     "Patient privacy",
+    "Supply storage",
     "Test result communication",
-    "Environment of care program oversight"
+    "Toxic exposure screening"
    ],
    "recs": [
     {
@@ -3468,8 +3468,8 @@
    "themes": [
     "Accessibility",
     "Cleanliness/infection control",
-    "Test result communication",
-    "Staffing shortages"
+    "Staffing shortages",
+    "Test result communication"
    ],
    "recs": [
     {
@@ -3522,8 +3522,8 @@
     "Patient safety"
    ],
    "themes": [
-    "Equipment maintenance/labeling",
     "Adverse event disclosure/reporting",
+    "Equipment maintenance/labeling",
     "Repeat findings"
    ],
    "recs": [
@@ -3566,15 +3566,15 @@
     "Veteran-centered safety net"
    ],
    "themes": [
-    "Wayfinding/signage",
-    "Toxic exposure screening",
-    "Cleanliness/infection control",
-    "Slip/fall hazards",
     "Clean/dirty storage separation",
-    "Test result communication",
+    "Cleanliness/infection control",
+    "Environment of care program oversight",
     "Policy change monitoring",
     "Repeat findings",
-    "Environment of care program oversight"
+    "Slip/fall hazards",
+    "Test result communication",
+    "Toxic exposure screening",
+    "Wayfinding/signage"
    ],
    "recs": [
     {
@@ -3755,6 +3755,17 @@
    "recs": []
   },
   {
+   "facility": "VA Western New York Healthcare System",
+   "city": "Buffalo",
+   "state": "NY",
+   "date": "2025-01-08",
+   "reportNumber": "24-00597-22",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-western-new-york",
+   "domains": [],
+   "themes": [],
+   "recs": []
+  },
+  {
    "facility": "VA Chillicothe Healthcare System",
    "city": "Chillicothe",
    "state": "OH",
@@ -3786,17 +3797,6 @@
    ]
   },
   {
-   "facility": "VA Western New York Healthcare System",
-   "city": "Buffalo",
-   "state": "NY",
-   "date": "2025-01-08",
-   "reportNumber": "24-00597-22",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-western-new-york",
-   "domains": [],
-   "themes": [],
-   "recs": []
-  },
-  {
    "facility": "Birmingham VA Health Care System",
    "city": "Birmingham",
    "state": "AL",
@@ -3808,10 +3808,10 @@
     "Patient safety"
    ],
    "themes": [
-    "Clean/dirty storage separation",
-    "Repeat findings",
-    "Cleanliness/infection control",
     "Accessibility",
+    "Clean/dirty storage separation",
+    "Cleanliness/infection control",
+    "Repeat findings",
     "Test result communication"
    ],
    "recs": [
@@ -3842,6 +3842,35 @@
    ]
   },
   {
+   "facility": "VA Northport Healthcare System",
+   "city": "Northport",
+   "state": "NY",
+   "date": "2024-12-11",
+   "reportNumber": "24-00589-17",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-northport-healthcare",
+   "domains": [
+    "Environment of care"
+   ],
+   "themes": [
+    "Accessibility",
+    "Medication storage/labeling"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "closed",
+     "closed": "8/19/2025",
+     "text": "The OIG recommends facility leaders ensure staff secure all medications and the supplies used to administer medications in the Emergency Department."
+    },
+    {
+     "n": 2,
+     "status": "closed",
+     "closed": "4/30/2025",
+     "text": "The OIG recommends facility leaders confirm staff are knowledgeable about how the lobby kiosks function to assist veterans with sensory impairments."
+    }
+   ]
+  },
+  {
    "facility": "Durham VA Health Care System",
    "city": "Durham",
    "state": "NC",
@@ -3853,14 +3882,14 @@
     "Patient safety"
    ],
    "themes": [
-    "Medication storage/labeling",
-    "Expired supplies",
-    "Cleanliness/infection control",
-    "Adverse event disclosure/reporting",
-    "Test result communication",
-    "Wayfinding/signage",
     "Accessibility",
-    "Environment of care program oversight"
+    "Adverse event disclosure/reporting",
+    "Cleanliness/infection control",
+    "Environment of care program oversight",
+    "Expired supplies",
+    "Medication storage/labeling",
+    "Test result communication",
+    "Wayfinding/signage"
    ],
    "recs": [
     {
@@ -3932,35 +3961,6 @@
    ]
   },
   {
-   "facility": "VA Northport Healthcare System",
-   "city": "Northport",
-   "state": "NY",
-   "date": "2024-12-11",
-   "reportNumber": "24-00589-17",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-northport-healthcare",
-   "domains": [
-    "Environment of care"
-   ],
-   "themes": [
-    "Medication storage/labeling",
-    "Accessibility"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "closed",
-     "closed": "8/19/2025",
-     "text": "The OIG recommends facility leaders ensure staff secure all medications and the supplies used to administer medications in the Emergency Department."
-    },
-    {
-     "n": 2,
-     "status": "closed",
-     "closed": "4/30/2025",
-     "text": "The OIG recommends facility leaders confirm staff are knowledgeable about how the lobby kiosks function to assist veterans with sensory impairments."
-    }
-   ]
-  },
-  {
    "facility": "VA Northeast Ohio Healthcare System",
    "city": "Cleveland",
    "state": "OH",
@@ -3970,49 +3970,6 @@
    "domains": [],
    "themes": [],
    "recs": []
-  },
-  {
-   "facility": "VA Hudson Valley Healthcare System",
-   "city": "Montrose",
-   "state": "NY",
-   "date": "2024-09-24",
-   "reportNumber": "24-00601-254",
-   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-hudson-valley-healthcare",
-   "domains": [
-    "Environment of care"
-   ],
-   "themes": [
-    "Slip/fall hazards",
-    "Wayfinding/signage",
-    "Accessibility",
-    "Toxic exposure screening"
-   ],
-   "recs": [
-    {
-     "n": 1,
-     "status": "closed",
-     "closed": "9/24/2024",
-     "text": "The OIG recommends that facility leaders submit a plan to the OIG detailing steps to address snow removal on pathways leading to and from buses during and after snowstorms."
-    },
-    {
-     "n": 2,
-     "status": "closed",
-     "closed": "1/22/2025",
-     "text": "The OIG recommends that facility leaders consider clarifying signage by identifying the services located in each building to help direct veterans."
-    },
-    {
-     "n": 3,
-     "status": "closed",
-     "closed": "1/22/2025",
-     "text": "The OIG recommends that facility leaders implement navigation tools and cues that accommodate visually impaired veterans to help them enter the main doors."
-    },
-    {
-     "n": 4,
-     "status": "closed",
-     "closed": "9/24/2024",
-     "text": "The OIG recommends that facility leaders consider distributing toxic exposure screening information where veterans can easily obtain it when entering the facility."
-    }
-   ]
   },
   {
    "facility": "VA Orlando Healthcare System",
@@ -4040,6 +3997,49 @@
      "status": "closed",
      "closed": "1/8/2025",
      "text": "The OIG recommended the Facility Director ensures staff secure the pneumatic tube system to prevent unauthorized access to medications."
+    }
+   ]
+  },
+  {
+   "facility": "VA Hudson Valley Healthcare System",
+   "city": "Montrose",
+   "state": "NY",
+   "date": "2024-09-24",
+   "reportNumber": "24-00601-254",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-hudson-valley-healthcare",
+   "domains": [
+    "Environment of care"
+   ],
+   "themes": [
+    "Accessibility",
+    "Slip/fall hazards",
+    "Toxic exposure screening",
+    "Wayfinding/signage"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "closed",
+     "closed": "9/24/2024",
+     "text": "The OIG recommends that facility leaders submit a plan to the OIG detailing steps to address snow removal on pathways leading to and from buses during and after snowstorms."
+    },
+    {
+     "n": 2,
+     "status": "closed",
+     "closed": "1/22/2025",
+     "text": "The OIG recommends that facility leaders consider clarifying signage by identifying the services located in each building to help direct veterans."
+    },
+    {
+     "n": 3,
+     "status": "closed",
+     "closed": "1/22/2025",
+     "text": "The OIG recommends that facility leaders implement navigation tools and cues that accommodate visually impaired veterans to help them enter the main doors."
+    },
+    {
+     "n": 4,
+     "status": "closed",
+     "closed": "9/24/2024",
+     "text": "The OIG recommends that facility leaders consider distributing toxic exposure screening information where veterans can easily obtain it when entering the facility."
     }
    ]
   }
