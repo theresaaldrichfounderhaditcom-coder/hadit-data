@@ -129,7 +129,7 @@
     "Medical emergency response",
     "Primary care panel size",
     "Repeat findings",
-    "Security surveillance",
+    "Security",
     "Test result communication"
    ],
    "recs": [
@@ -403,6 +403,7 @@
     "Environment of care"
    ],
    "themes": [
+    "Environment of care program oversight",
     "Expired supplies",
     "Repeat findings",
     "Slip/fall hazards"
@@ -496,6 +497,8 @@
    ],
    "themes": [
     "Compressed gas storage",
+    "Environment of care program oversight",
+    "Fire/life safety",
     "Repeat findings",
     "Supply storage"
    ],
@@ -626,6 +629,7 @@
    "themes": [
     "Adverse event disclosure/reporting",
     "Cleanliness/infection control",
+    "Environment of care program oversight",
     "Fire/life safety",
     "Repeat findings",
     "Root cause analysis follow-through",
@@ -737,7 +741,6 @@
    "themes": [
     "Cleanliness/infection control",
     "Patient privacy",
-    "Repeat findings",
     "Test result communication"
    ],
    "recs": [
@@ -868,7 +871,7 @@
    ],
    "themes": [
     "Compressed gas storage",
-    "Security surveillance"
+    "Security"
    ],
    "recs": [
     {
@@ -1089,7 +1092,8 @@
     "Environment of care"
    ],
    "themes": [
-    "Clean/dirty storage separation"
+    "Clean/dirty storage separation",
+    "Cleanliness/infection control"
    ],
    "recs": [
     {
@@ -1516,6 +1520,7 @@
     "Patient safety"
    ],
    "themes": [
+    "Clinical care oversight",
     "Endoscope storage",
     "Repeat findings",
     "Test result communication"
@@ -1554,10 +1559,13 @@
     "Integrated veteran care"
    ],
    "themes": [
+    "Clean/dirty storage separation",
     "Community care delays",
     "Compressed gas storage",
+    "Environment of care program oversight",
     "Expired supplies",
     "Medication storage/labeling",
+    "Primary care panel size",
     "Repeat findings",
     "Root cause analysis follow-through",
     "Staffing shortages",
@@ -1681,6 +1689,8 @@
    ],
    "themes": [
     "Cleanliness/infection control",
+    "Equipment maintenance/labeling",
+    "Expired supplies",
     "Medication storage/labeling",
     "Patient privacy",
     "Staffing shortages",
@@ -1767,6 +1777,7 @@
    "themes": [
     "Cleanliness/infection control",
     "Clinic efficiency",
+    "Environment of care program oversight",
     "Repeat findings"
    ],
    "recs": [
@@ -1797,6 +1808,7 @@
    ],
    "themes": [
     "Cleanliness/infection control",
+    "Environment of care program oversight",
     "Equipment maintenance/labeling",
     "Repeat findings",
     "Test result communication"
@@ -1846,6 +1858,8 @@
     "Clean/dirty storage separation",
     "Cleanliness/infection control",
     "Clinical care oversight",
+    "Environment of care program oversight",
+    "Fire/life safety",
     "Medical emergency response",
     "Primary care panel size",
     "Repeat findings",
@@ -2004,8 +2018,6 @@
    "themes": [
     "Clean/dirty storage separation",
     "Cleanliness/infection control",
-    "Policy change monitoring",
-    "Supply storage",
     "Test result communication"
    ],
    "recs": [
@@ -2189,6 +2201,7 @@
     "Environment of care"
    ],
    "themes": [
+    "Environment of care program oversight",
     "Equipment maintenance/labeling",
     "Repeat findings",
     "Staffing shortages"
@@ -2256,7 +2269,6 @@
    ],
    "themes": [
     "Clean/dirty storage separation",
-    "Cleanliness/infection control",
     "Environment of care program oversight",
     "Equipment maintenance/labeling",
     "Expired supplies",
@@ -2312,6 +2324,7 @@
     "Accessibility",
     "Clean/dirty storage separation",
     "Cleanliness/infection control",
+    "Compressed gas storage",
     "Environment of care program oversight",
     "Fire/life safety",
     "Phone access",
@@ -2827,13 +2840,11 @@
     "Patient safety"
    ],
    "themes": [
-    "Clean/dirty storage separation",
     "Cleanliness/infection control",
     "Environment of care program oversight",
     "Medication storage/labeling",
-    "Policy change monitoring",
     "Repeat findings",
-    "Supply storage"
+    "Test result communication"
    ],
    "recs": [
     {
@@ -3029,7 +3040,7 @@
     "Adverse event disclosure/reporting",
     "Phone access",
     "Primary care panel size",
-    "Security surveillance",
+    "Security",
     "Test result communication"
    ],
    "recs": [
@@ -3181,7 +3192,6 @@
    "themes": [
     "Accessibility",
     "Equipment maintenance/labeling",
-    "Leadership engagement",
     "Test result communication"
    ],
    "recs": [
@@ -3339,7 +3349,6 @@
     "Equipment maintenance/labeling",
     "Fire/life safety",
     "Patient privacy",
-    "Supply storage",
     "Test result communication",
     "Toxic exposure screening"
    ],
@@ -3417,8 +3426,10 @@
    ],
    "themes": [
     "Accessibility",
+    "Emergency door access",
     "Fire/life safety",
-    "Toxic exposure screening"
+    "Toxic exposure screening",
+    "Wayfinding/signage"
    ],
    "recs": [
     {
@@ -3571,7 +3582,6 @@
     "Environment of care program oversight",
     "Policy change monitoring",
     "Repeat findings",
-    "Slip/fall hazards",
     "Test result communication",
     "Toxic exposure screening",
     "Wayfinding/signage"
@@ -3713,7 +3723,7 @@
     "Integrated veteran care"
    ],
    "themes": [
-    "Security surveillance",
+    "Security",
     "Staffing shortages"
    ],
    "recs": [
@@ -3811,8 +3821,7 @@
     "Accessibility",
     "Clean/dirty storage separation",
     "Cleanliness/infection control",
-    "Repeat findings",
-    "Test result communication"
+    "Repeat findings"
    ],
    "recs": [
     {

@@ -37,11 +37,11 @@ function pc(n){return n===0?"p0":n<=2?"p1":n<=5?"p3":"p6"}
 function recPill(r){var s='<span class="pill '+pc(r.n)+'" title="Recommendations">'+r.n+'</span>';if(r.nOpen)s+=' <span class="pill open" title="Still open">'+r.nOpen+' open</span>';return s}
 function tags(r){return r.themes.length?r.themes.map(function(t){return '<span class="tag'+(t==="Repeat findings"?" rep":"")+'">'+esc(t)+'</span>'}).join(""):'<span class="loc">None</span>'}
 function recBlock(r){
- var h=r.n?'<b>OIG recommendations</b><ol class="recs">'+r.recs.map(function(x){var b=x.status==="open"?'<span class="rs o">Open</span>':x.status==="closed"?'<span class="rs c">Closed'+(x.closed?" "+fmtUS(x.closed):"")+'</span>':'<span class="rs x">Closed, not implemented</span>';return '<li>'+esc(x.text)+b+'</li>'}).join("")+'</ol>':'<p>OIG made no recommendations in this report.</p>';
+ var h=r.n?'<b>OIG recommendations</b><ol class="recs">'+r.recs.map(function(x){var b=x.status==="open"?'<span class="rs o">Open</span>':x.status==="closed"?'<span class="rs c">Closed, implemented'+(x.closed?" "+fmtUS(x.closed):"")+'</span>':'<span class="rs x">Closed, not implemented</span>';return '<li>'+esc(x.text)+b+'</li>'}).join("")+'</ol>':'<p>OIG made no recommendations in this report.</p>';
  return h+'<a href="'+esc(r.url)+'" target="_blank" rel="noopener">Read the OIG report'+(r.reportNumber?" ("+esc(r.reportNumber)+")":"")+'</a>'}
 function build(doc){
  DATA=doc.reports.map(function(r){r.n=r.recs.length;r.nOpen=r.recs.filter(function(x){return x.status==="open"}).length;return r});
- $("#hoig-upd").textContent="Checked daily against vaoig.gov. Last update: "+fmt(doc.updated)+".";
+ $("#hoig-upd").textContent="Recommendation status from vaoig.gov as of "+fmt(doc.updated)+".";
  var N=DATA.length,tot=0,open=0,zero=0,withRecs=0,tc={},sc={},yrs={},rep=0;
  DATA.forEach(function(r){tot+=r.n;open+=r.nOpen;if(!r.n)zero++;else withRecs++;r.themes.forEach(function(t){tc[t]=(tc[t]||0)+1});sc[r.state]=(sc[r.state]||0)+1;yrs[r.date.slice(0,4)]=1;if(r.themes.indexOf("Repeat findings")>=0)rep++});
  var themes=Object.keys(tc).map(function(t){return[t,tc[t]]}).sort(function(a,b){return b[1]-a[1]||a[0].localeCompare(b[0])});
@@ -50,12 +50,12 @@ function build(doc){
  DATA.forEach(function(r){if(r.date<cutS)old+=r.nOpen});
  var html='<section class="gist"><h3>The Gist</h3><ul>'+
   '<li>OIG has published '+N+' facility inspection reports since '+fmt(first)+', with '+tot+' recommendations between them. '+open+' are still open.</li>'+
-  '<li>The most common problem: <b>'+esc(top[0].toLowerCase())+'</b>, flagged in '+top[1]+' of the '+withRecs+' reports that carried any recommendation.'+(top[0]==="Test result communication"?' That is the system that is supposed to tell you about an abnormal lab or scan result.':'')+'</li>'+
-  '<li>'+rep+' reports tied a problem to an earlier OIG, Joint Commission, or VISN review that the facility had not kept fixed.</li>'+
+  '<li>The most common issue in OIG\'s recommendations, by HadIt\'s count: <b>'+esc(top[0].toLowerCase())+'</b>, in '+top[1]+' of the '+withRecs+' reports that carried any recommendation.'+(top[0]==="Test result communication"?' That is the system that is supposed to tell you about an abnormal lab or scan result.':'')+'</li>'+
+  '<li>In '+rep+' reports, OIG said the problem behind a recommendation had already been flagged by an earlier OIG, Joint Commission, or VISN review.</li>'+
   (old?'<li>'+old+' recommendations are still open more than a year after their report was published.</li>':'')+
   '</ul></section>'+
   '<section class="kpis">'+[[N,"inspection reports"],[states.filter(function(x){return x!=="DC"}).length,states.indexOf("DC")>=0?"states, plus D.C.":"states"],[tot,"recommendations issued"],[open,"still open"],[zero,"reports with no recommendations"]].map(function(k){return '<div class="kpi"><b>'+k[0]+'</b><span>'+k[1]+'</span></div>'}).join("")+'</section>'+
-  '<section class="grid2"><div class="panel"><h3>What inspectors keep flagging</h3><p class="sub">Number of reports with a recommendation on each issue. Click a bar to filter the list.</p><div id="hoig-themes">'+
+  '<section class="grid2"><div class="panel"><h3>What inspectors keep flagging</h3><p class="sub">Number of reports with at least one recommendation on each issue, as tagged by HadIt. Click a bar to filter the list.</p><div id="hoig-themes">'+
   themes.slice(0,12).map(function(t){return '<button class="bar" type="button" data-t="'+esc(t[0])+'" aria-pressed="false"><span class="t">'+esc(t[0])+'</span><span class="track"><span class="fill" style="width:'+(t[1]/top[1]*100)+'%"></span></span><span class="n">'+t[1]+'</span></button>'}).join("")+
   '</div></div><div class="panel"><h3>Reports by state</h3><p class="sub">Click a state to filter. Number is reports published.</p><div class="states" id="hoig-states">'+
   states.map(function(s){return '<button class="st" type="button" data-s="'+s+'"><b>'+s+'</b><i>'+sc[s]+'</i></button>'}).join("")+'</div></div></section>'+
