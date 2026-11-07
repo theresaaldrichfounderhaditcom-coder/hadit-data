@@ -41,7 +41,7 @@ function recBlock(r){
  return h+'<a href="'+esc(r.url)+'" target="_blank" rel="noopener">Read the OIG report'+(r.reportNumber?" ("+esc(r.reportNumber)+")":"")+'</a>'}
 function build(doc){
  DATA=doc.reports.map(function(r){r.n=r.recs.length;r.nOpen=r.recs.filter(function(x){return x.status==="open"}).length;return r});
- $("#hoig-upd").textContent="Recommendation status checked weekly against vaoig.gov. Last update: "+fmt(doc.updated)+".";
+ $("#hoig-upd").textContent="Checked daily against vaoig.gov. Last update: "+fmt(doc.updated)+".";
  var N=DATA.length,tot=0,open=0,zero=0,withRecs=0,tc={},sc={},yrs={},rep=0;
  DATA.forEach(function(r){tot+=r.n;open+=r.nOpen;if(!r.n)zero++;else withRecs++;r.themes.forEach(function(t){tc[t]=(tc[t]||0)+1});sc[r.state]=(sc[r.state]||0)+1;yrs[r.date.slice(0,4)]=1;if(r.themes.indexOf("Repeat findings")>=0)rep++});
  var themes=Object.keys(tc).map(function(t){return[t,tc[t]]}).sort(function(a,b){return b[1]-a[1]||a[0].localeCompare(b[0])});
