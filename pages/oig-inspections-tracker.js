@@ -54,7 +54,7 @@ function build(doc){
   '<li>'+rep+' reports tied a problem to an earlier OIG, Joint Commission, or VISN review that the facility had not kept fixed.</li>'+
   (old?'<li>'+old+' recommendations are still open more than a year after their report was published.</li>':'')+
   '</ul></section>'+
-  '<section class="kpis">'+[[N,"inspection reports"],[states.length,"states and D.C."],[tot,"recommendations issued"],[open,"still open"],[zero,"reports with no recommendations"]].map(function(k){return '<div class="kpi"><b>'+k[0]+'</b><span>'+k[1]+'</span></div>'}).join("")+'</section>'+
+  '<section class="kpis">'+[[N,"inspection reports"],[states.filter(function(x){return x!=="DC"}).length,states.indexOf("DC")>=0?"states, plus D.C.":"states"],[tot,"recommendations issued"],[open,"still open"],[zero,"reports with no recommendations"]].map(function(k){return '<div class="kpi"><b>'+k[0]+'</b><span>'+k[1]+'</span></div>'}).join("")+'</section>'+
   '<section class="grid2"><div class="panel"><h3>What inspectors keep flagging</h3><p class="sub">Number of reports with a recommendation on each issue. Click a bar to filter the list.</p><div id="hoig-themes">'+
   themes.slice(0,12).map(function(t){return '<button class="bar" type="button" data-t="'+esc(t[0])+'" aria-pressed="false"><span class="t">'+esc(t[0])+'</span><span class="track"><span class="fill" style="width:'+(t[1]/top[1]*100)+'%"></span></span><span class="n">'+t[1]+'</span></button>'}).join("")+
   '</div></div><div class="panel"><h3>Reports by state</h3><p class="sub">Click a state to filter. Number is reports published.</p><div class="states" id="hoig-states">'+
