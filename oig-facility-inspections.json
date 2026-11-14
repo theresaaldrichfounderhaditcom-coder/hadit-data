@@ -2,10 +2,90 @@
  "title": "VA OIG Healthcare Facility Inspections",
  "source": "VA Office of Inspector General, Healthcare Facility Inspection reports (vaoig.gov)",
  "compiledBy": "HadIt.com",
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "coverage": "Every Healthcare Facility Inspection report OIG has published since the program began on 2024-09-24",
  "notes": "Recommendation text and status are OIG's own, read from each report page. Issue tags are HadIt labels applied to OIG's formal recommendations.",
  "reports": [
+  {
+   "facility": "Veterans Health Care System of the Ozarks",
+   "city": "Fayetteville",
+   "state": "AR",
+   "date": "2026-11-13",
+   "reportNumber": "26-00060-15",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-veterans-health-care-system",
+   "domains": [
+    "Culture",
+    "Patient safety",
+    "Integrated veteran care"
+   ],
+   "themes": [
+    "Culture of safety/trust",
+    "Primary care panel size",
+    "Test result communication"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "open",
+     "closed": null,
+     "text": "The Executive Director takes appropriate steps to implement a data‑driven strategy to measure and improve psychological safety across services, with a focus on alleviating employees’ fear of retaliation and strengthening their confidence in reporting patient safety concerns, in alignment with Veterans Health Administration Directive 1050.01(1), Veterans Health Administration Quality and Patient Safety Programs ."
+    },
+    {
+     "n": 2,
+     "status": "closed",
+     "closed": "11/13/2026",
+     "text": "The Executive Director takes appropriate steps to update the facility’s policy for communicating test results, as required by Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
+    },
+    {
+     "n": 3,
+     "status": "closed",
+     "closed": "11/13/2026",
+     "text": "The Chief of Staff and Associate Director for Patient Care Services take appropriate steps to develop written workflows, consistent with Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients."
+    },
+    {
+     "n": 4,
+     "status": "open",
+     "closed": null,
+     "text": "The Executive Director takes appropriate steps to manage primary care teams’ panel sizes, in accordance with Veterans Health Administration Directive 1406(3), Patient Centered Management Module (PCMM) for Primary Care ."
+    }
+   ]
+  },
+  {
+   "facility": "VA Central Texas Healthcare System",
+   "city": "Temple",
+   "state": "TX",
+   "date": "2026-11-13",
+   "reportNumber": "26-00061-13",
+   "url": "https://www.vaoig.gov/reports/healthcare-facility-inspection/healthcare-facility-inspection-va-central-texas-healthcare",
+   "domains": [
+    "Environment of care",
+    "Patient safety"
+   ],
+   "themes": [
+    "Supply storage",
+    "Test result communication"
+   ],
+   "recs": [
+    {
+     "n": 1,
+     "status": "open",
+     "closed": null,
+     "text": "The Director takes appropriate actions so the proper staff members are notified of supply room temperature and humidity changes, as required by Veterans Health Administration Directive 1761, Supply Chain Management Operations ."
+    },
+    {
+     "n": 2,
+     "status": "closed",
+     "closed": "11/13/2026",
+     "text": "The Director updates the facility’s policy for test result communications and develops service-level workflows to comply with Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
+    },
+    {
+     "n": 3,
+     "status": "open",
+     "closed": null,
+     "text": "The Chief of Staff and Associate Director for Patient Care Services work with service-level leaders to take corrective action when staff do not communicate test results that require action to patients within seven days, as required by Veterans Health Administration Directive 1088(1), Communicating Test Results to Providers and Patients ."
+    }
+   ]
+  },
   {
    "facility": "VA Marion Healthcare System",
    "city": "Marion",
@@ -3052,8 +3132,8 @@
     },
     {
      "n": 2,
-     "status": "open",
-     "closed": null,
+     "status": "closed",
+     "closed": "11/10/2026",
      "text": "The OIG recommends facility leaders develop and implement a plan to resolve veterans’ unanswered phone calls and inability to reach staff."
     },
     {
@@ -3064,8 +3144,8 @@
     },
     {
      "n": 4,
-     "status": "open",
-     "closed": null,
+     "status": "closed",
+     "closed": "11/10/2026",
      "text": "The OIG recommends facility leaders update local policies and memorandums related to communication of test results."
     },
     {
