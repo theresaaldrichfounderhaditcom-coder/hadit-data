@@ -2,7 +2,7 @@
  "title": "VA OIG Healthcare Facility Inspections",
  "source": "VA Office of Inspector General, Healthcare Facility Inspection reports (vaoig.gov)",
  "compiledBy": "HadIt.com",
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "coverage": "Every Healthcare Facility Inspection report OIG has published since the program began on 2024-09-24",
  "notes": "Recommendation text and status are OIG's own, read from each report page. Issue tags are HadIt labels applied to OIG's formal recommendations.",
  "reports": [
@@ -1435,8 +1435,8 @@
    "recs": [
     {
      "n": 1,
-     "status": "open",
-     "closed": null,
+     "status": "closed",
+     "closed": "11/16/2026",
      "text": "Facility leaders ensure staff place signs on or near each building to help veterans easily navigate where services are located."
     }
    ]
